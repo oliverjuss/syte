@@ -1089,7 +1089,7 @@ section {
   overflow: hidden;
 }
 section.big-section {
-  padding: 160px 0;
+  padding: 130px 0 0px 0;
 }
 section.extra-big-section {
   padding: 200px 0;
@@ -14814,7 +14814,7 @@ footer .instafeed-grid.gutter-extra-large {
 
 /* home - creative branding agency */
 .box-layout {
-  padding: 0 60px;
+  padding: 0 0px;
 }
 
 /* home - creative business */
