@@ -276,7 +276,7 @@ header [class^="container-"] [class*=" col-"] {
 
 /* base color variable*/
 :root {
-  --base-color: #ed2024;
+  --base-color: #ec1e24;
 }
 
 /* ===================================
@@ -1687,7 +1687,7 @@ textarea.input-bg {
 .btn.btn-dark-gray:hover,
 .btn.btn-dark-gray:focus {
   background: transparent;
-  color: #232323;
+  color: var(--base-color);
 }
 .btn.btn-light-gray {
   background: #dbdbdb;
@@ -8205,7 +8205,7 @@ header.sticky
   > a.active {
   color: rgba(255, 255, 255, 0.6);
 }
-
+/* siit saab muuta paise nuppude varve */
 header.header-appear
   nav.bootsnav.header-light-transparent
   .navbar-nav
@@ -8214,7 +8214,7 @@ header.header-appear
 header.header-appear nav.bootsnav.header-light .navbar-nav > li.dropdown.on > a,
 header nav.navbar .navbar-nav > li.dropdown.on > a,
 nav.navbar.bootsnav ul.nav > li.dropdown.on > a {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--base-color);
 }
 header nav.navbar.white-link .navbar-nav > li.dropdown.on > a,
 nav.navbar.bootsnav.white-link ul.nav > li.dropdown.on > a,
@@ -14565,7 +14565,7 @@ a img.aligncenter {
   background-color: #141414;
 }
 .footer-logo {
-  height: 70px;
+  height: 60px;
   width: auto;
   /* max-height: 28px;
   muudetud kõrgus ja lisatud margin */
