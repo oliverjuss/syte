@@ -8,7 +8,7 @@ if( ! empty( $_POST['email'] ) ) {
 	$receiver_email = 'oliver.juss@ametikool.ee';
 
 	// Email Receiver Name for SMTP Email
-	$receiver_name 	= 'Your Name';
+	$receiver_name 	= 'Oliver';
 
 	// Email Subject
 	$subject = 'Contact form details';
