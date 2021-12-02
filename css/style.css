@@ -14551,7 +14551,7 @@ a img.aligncenter {
   border-radius: 100%;
 }
 .scroll-top-arrow:hover {
-  background: #000;
+  background: var(--base-color);
   opacity: 0.8;
   color: #fff;
   border-color: var(--base-color);
