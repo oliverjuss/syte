@@ -93,10 +93,10 @@ if( ! empty( $_POST['email'] ) ) {
 		$mail = new PHPMailer\PHPMailer\PHPMailer();
 
 		$mail->isSMTP();
-		$mail->Host     = 'YOUR_SMTP_HOST'; // Your SMTP Host
+		$mail->Host     = 'smtp.zone.eu'; // Your SMTP Host
 		$mail->SMTPAuth = true;
-		$mail->Username = 'YOUR_SMTP_USERNAME'; // Your Username
-		$mail->Password = 'YOUR_SMTP_PASSWORD'; // Your Password
+		$mail->Username = 'triin@johnblund.eu'; // Your Username
+		$mail->Password = 'Piimapisara20#'; // Your Password
 		$mail->SMTPSecure = 'ssl'; // Your Secure Connection
 		$mail->Port     = 465; // Your Port
 		$mail->setFrom( $from, $name );
