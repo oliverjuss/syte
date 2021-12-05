@@ -2,7 +2,7 @@
 if( ! empty( $_POST['email'] ) ) {
 
 	// Enable / Disable SMTP
-	$enable_smtp = 'no'; // yes OR no
+	$enable_smtp = 'yes'; // yes OR no
 
 	// Email Receiver Address
 	$receiver_email = 'triin@uneruno.com';
@@ -53,7 +53,7 @@ if( ! empty( $_POST['email'] ) ) {
 		</html>
 		';
 
-	if( $enable_smtp == 'no' ) { // Simple Email
+	if( $enable_smtp == 'yes' ) { // Simple Email
 
 		// Always set content-type when sending HTML email
 		$headers = "MIME-Version: 1.0" . "\r\n";
@@ -97,7 +97,7 @@ if( ! empty( $_POST['email'] ) ) {
 		$mail->SMTPAuth = true;
 		$mail->Username = 'triin@uneruno.com'; // Your Username
 		$mail->Password = 'Piimapisara20#'; // Your Password
-		$mail->SMTPSecure = 'tls'; // Your Secure Connection
+		$mail->SMTPSecure = 'ssl'; // Your Secure Connection
 		$mail->Port     = 587; // Your Port
 		$mail->setFrom( $from, $name );
 		
