@@ -93,7 +93,7 @@ if( ! empty( $_POST['email'] ) ) {
 		$mail = new PHPMailer\PHPMailer\PHPMailer();
 
 		$mail->isSMTP();
-		$mail->Host     = 'smtp.zone.eu'; // Your SMTP Host
+		$mail->Host     = 'smtp.gmail.com '; // Your SMTP Host
 		$mail->SMTPAuth = true;
 		$mail->Username = 'oliverjuss007@gmail.com'; // Your Username
 		$mail->Password = 'Lendavsiga321'; // Your Password
