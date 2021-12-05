@@ -2,7 +2,7 @@
 if( ! empty( $_POST['email'] ) ) {
 
 	// Enable / Disable SMTP
-	$enable_smtp = 'yes'; // yes OR no
+	$enable_smtp = 'no'; // yes OR no
 
 	// Email Receiver Address
 	$receiver_email = 'triin@uneruno.com';
@@ -53,7 +53,7 @@ if( ! empty( $_POST['email'] ) ) {
 		</html>
 		';
 
-	if( $enable_smtp == 'yes' ) { // Simple Email
+	if( $enable_smtp == 'no' ) { // Simple Email
 
 		// Always set content-type when sending HTML email
 		$headers = "MIME-Version: 1.0" . "\r\n";
