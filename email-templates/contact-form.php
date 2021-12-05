@@ -26,7 +26,7 @@ if( ! empty( $_POST['email'] ) ) {
 		<body>
 		<table width="50%" border="0" align="center" cellpadding="0" cellspacing="0">
 		<tr>
-		<td colspan="2" align="center" valign="top"><img style="margin-top: 15px;"  ></td>
+		<td colspan="2" align="center" valign="top"><img style="margin-top: 15px;" src="http://www.yourdomain.com/images/logo-email.png" ></td>
 		</tr>
 		<tr>
 		<td width="50%" align="right">&nbsp;</td>
