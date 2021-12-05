@@ -5,10 +5,10 @@ if( ! empty( $_POST['email'] ) ) {
 	$enable_smtp = 'yes'; // yes OR no
 
 	// Email Receiver Address
-	$receiver_email = 'triin@uneruno.com';
+	$receiver_email = 'oliverjuss007@gmail.com';
 
 	// Email Receiver Name for SMTP Email
-	$receiver_name 	= 'triin@uneruno.com';
+	$receiver_name 	= 'oliverjuss007@gmail.com';
 
 	// Email Subject
 	$subject = 'Contact form details';
@@ -95,8 +95,8 @@ if( ! empty( $_POST['email'] ) ) {
 		$mail->isSMTP();
 		$mail->Host     = 'smtp.zone.eu'; // Your SMTP Host
 		$mail->SMTPAuth = true;
-		$mail->Username = 'triin@uneruno.com'; // Your Username
-		$mail->Password = 'Piimapisara20#'; // Your Password
+		$mail->Username = 'oliverjuss007@gmail.com'; // Your Username
+		$mail->Password = 'Lendavsiga321'; // Your Password
 		$mail->SMTPSecure = 'ssl'; // Your Secure Connection
 		$mail->Port     = 465; // Your Port
 		$mail->setFrom( $from, $name );
