@@ -5,7 +5,7 @@ if( ! empty( $_POST['email'] ) ) {
 	$enable_smtp = 'yes'; // yes OR no
 
 	// Email Receiver Address
-	$receiver_email = 'oliver.juss@ametikool.ee';
+	$receiver_email = 'triinjuss@icloud.com';
 
 	// Email Receiver Name for SMTP Email
 	$receiver_name 	= 'Oliver';
