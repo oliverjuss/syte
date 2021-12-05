@@ -53,7 +53,7 @@ if( ! empty( $_POST['email'] ) ) {
 		</html>
 		';
 
-	if( $enable_smtp == 'no' ) { // Simple Email
+	if( $enable_smtp == 'yes' ) { // Simple Email
 
 		// Always set content-type when sending HTML email
 		$headers = "MIME-Version: 1.0" . "\r\n";
