@@ -5,10 +5,10 @@ if( ! empty( $_POST['email'] ) ) {
 	$enable_smtp = 'no'; // yes OR no
 
 	// Email Receiver Address
-	$receiver_email = 'oliver.juss@ametikool.ee';
+	$receiver_email = 'info@yourdomain.com';
 
 	// Email Receiver Name for SMTP Email
-	$receiver_name 	= 'Oliver';
+	$receiver_name 	= 'Your Name';
 
 	// Email Subject
 	$subject = 'Contact form details';
