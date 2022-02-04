@@ -2,13 +2,20 @@
 if( ! empty( $_POST['email'] ) ) {
 
 	// Enable / Disable SMTP
-	$enable_smtp = 'no'; // yes OR no
+	$enable_smtp = 'yes'; // yes OR no
 
 	// Email Receiver Address
+<<<<<<< HEAD
 	$receiver_email = 'info@yourdomain.com';
 
 	// Email Receiver Name for SMTP Email
 	$receiver_name 	= 'Your Name';
+=======
+	$receiver_email = 'oliverjuss007@gmail.com';
+
+	// Email Receiver Name for SMTP Email
+	$receiver_name 	= 'oliverjuss007@gmail.com';
+>>>>>>> 5de146004cd15e5379efcecbf7e9841451b2a2c9
 
 	// Email Subject
 	$subject = 'Contact form details';
